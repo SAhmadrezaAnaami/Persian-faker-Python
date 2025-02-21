@@ -103,3 +103,13 @@ class PersianDataFaker:
             bool: True if the national code is valid, False otherwise
         """
         return self.INC.validator(nationalCode)
+
+    def getRandomNationalCodeByCityCode(self , cityCode : str) -> str:
+        """
+        Args:
+            cityCode (str): The city code to generate the national code for
+
+        Returns:
+            str: A random Persian national code for the given city code
+        """
+        return self.INC.by_citycode(cityCode)

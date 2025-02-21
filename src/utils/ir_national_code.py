@@ -31,8 +31,7 @@ class ir_national_code(object):
 
                 return code , city
             
-            else:
-                return "not a valid state" , None
+        return "not a valid state" , None
 
     # return national code by state name
     def by_citycode(self, citycode):
@@ -42,8 +41,8 @@ class ir_national_code(object):
                 code = str(citycode + str(x)[1:])
                 city = self.city_codes[city_code]
                 return code , city
-            else:
-                return "not a valid city code" , None
+
+        return "not a valid city code" , None
     
     def randomCode(self):
         
