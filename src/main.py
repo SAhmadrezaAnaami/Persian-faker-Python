@@ -93,3 +93,13 @@ class PersianDataFaker:
             return self.INC.randomCode()
         else:
             return self.INC.randomCode()[0]
+        
+    def validateNationalCode(self, nationalCode : str) -> bool:
+        """
+        Args:
+            nationalCode (str): The national code to be validated
+
+        Returns:
+            bool: True if the national code is valid, False otherwise
+        """
+        return self.INC.validator(nationalCode)
