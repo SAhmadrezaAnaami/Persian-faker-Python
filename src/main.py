@@ -1,11 +1,12 @@
 import random
 from src.utils.loadData import load_data
+from src.utils.ir_national_code import ir_national_code
 
 class PersianDataFaker:
     def __init__(self):
         print("Welcome to Persian Fake Data Generator.")
         self.personal_data = load_data("src/data/person.json")
-        print(self.personal_data.keys())
+        self.INC = ir_national_code()
         
     # Persian Fake name and family generator
     
@@ -80,9 +81,15 @@ class PersianDataFaker:
 
     # Persian Fake National Code generator
 
-    def getNationalCode(self) -> str:
+    def getRandomNationalCode(self , getCityName : bool = True) -> str:
         """
+        Args:
+            getCityName (bool) if true returns the name of the city of national code too
+        
         Returns:
             str: A random Persian national code
         """
-        pass
+        if getCityName:
+            return self.INC.randomCode()
+        else:
+            return self.INC.randomCode()[0]
