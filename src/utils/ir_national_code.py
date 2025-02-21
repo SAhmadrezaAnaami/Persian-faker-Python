@@ -51,3 +51,6 @@ class ir_national_code(object):
         x = random.randint(10000000, 19999999)
         code = str(city_code + str(x)[1:])
         return code , city
+    
+    def get_city_codes_data(self):
+        return self.city_codes
