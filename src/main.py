@@ -186,6 +186,36 @@ class PersianDataFaker:
     
     
     def getEmail(self ,username:str | None = None , gender: str | None = None, domain: str | None = None) -> str:
+        """
+        Generate a random email address with Persian to English (Finglish) conversion.
+
+        This function creates an email address by either using a provided username or generating
+        one using getUserName(). The username is converted from Persian to English characters,
+        and special characters are removed to create a valid email address.
+
+        Args:
+            username (str | None, optional): A custom username for the email address. 
+                If None, generates a random username based on gender. Defaults to None.
+            gender (str | None, optional): Gender to use when generating random username 
+                ('male' or 'female'). Only used if username is None. Defaults to None.
+            domain (str | None, optional): Custom domain name for the email address.
+                If None, randomly selects from common email domains. Defaults to None.
+
+        Returns:
+            str: A formatted email address with Persian characters converted to English,
+                with special characters removed.
+
+        Example:
+            >>> faker = PersianFaker()
+            >>> faker.getEmail()  # Random email with random domain
+            'ali.mohammadi@gmail.com'
+            >>> faker.getEmail(username="رضا_احمدی")  # Custom username
+            'reza.ahmadi@gmail.com'
+            >>> faker.getEmail(domain="company.com")  # Custom domain
+            'sara.hashemi@company.com'
+        """
+
+        
         if username is None :
             username = self.getUserName(gender, haveTitle=False, nameSeprator=".")
             
@@ -194,8 +224,6 @@ class PersianDataFaker:
         
         email = f"{self.persian2Finglish.convert(username.lower())}@{domain}"
         return email.replace(" ", "").replace("'", "").replace("-", "").replace(" " , ".")
-    
-    
     
     
     
