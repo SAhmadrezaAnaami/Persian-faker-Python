@@ -1,12 +1,14 @@
 import random
 from src.utils.loadData import load_data
 from src.utils.ir_national_code import ir_national_code
+from src.utils.persian2Finglish import PersianToPinglishConverter
 
 class PersianDataFaker:
     def __init__(self):
         print("Welcome to Persian Fake Data Generator.")
         self.personal_data = load_data("src/data/person.json")
         self.INC = ir_national_code()
+        self.persian2Finglish = PersianToPinglishConverter()
         
     # Persian Fake name and family generator
     
@@ -183,7 +185,15 @@ class PersianDataFaker:
         return "0" + str(random.randint(1000000, 9999999))
     
     
-    
+    def getEmail(self ,username:str | None = None , gender: str | None = None, domain: str | None = None) -> str:
+        if username is None :
+            username = self.getUserName(gender, haveTitle=False, nameSeprator=".")
+            
+        if domain is None:
+            domain = random.choice(["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "example.com"])
+        
+        email = f"{self.persian2Finglish.convert(username.lower())}@{domain}"
+        return email.replace(" ", "").replace("'", "").replace("-", "").replace(" " , ".")
     
     
     
