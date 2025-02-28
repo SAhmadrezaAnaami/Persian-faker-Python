@@ -1,6 +1,3 @@
-
-
-```markdown
 # Persian Faker Python 🇮🇷
 
 Generate realistic Persian fake data with ease! This library provides a comprehensive set of tools for generating culturally appropriate Iranian names, national codes, contact information, and administrative data.
@@ -99,15 +96,4 @@ We welcome contributions! Please help us by:
 ## License 📜
 Apache License 2.0 - See [LICENSE](LICENSE) for details
 
-Made with ❤️ for Iranian developers
-``` 
-
-This README provides:
-1. Clear feature overview with visual checklist
-2. Installation and usage examples
-3. Code snippets demonstrating key functionality
-4. Roadmap for future development
-5. Contribution guidelines
-6. Cultural context for data generation
-
-Would you like me to adjust any sections or add specific details?
+Made with ❤️ for Iranian developers by Ahmadreza Anami
