@@ -1,0 +1,623 @@
+{ "company" : [
+    {
+      "name": "Zamzam Soft Drink Mfg. Co.",
+      "persian_name": "شرکت تولید نوشیدنی زمزم",
+      "type": "private"
+    },
+    {
+      "name": "Zamyad Co.",
+      "persian_name": "شرکت زامیاد",
+      "type": "public"
+    },
+    {
+      "name": "Zagros Petrochemical Company",
+      "persian_name": "شرکت پتروشیمی زاگرس",
+      "type": "public"
+    },
+    {
+      "name": "Yazd Tire",
+      "persian_name": "تایر یزد",
+      "type": "private"
+    },
+    {
+      "name": "Tooga-Mapna Turbine Engineering and Production",
+      "persian_name": "توگا-مپنا مهندسی و تولید توربین",
+      "type": "public"
+    },
+    {
+      "name": "Tolypers Co.",
+      "persian_name": "شرکت تولی‌پرس",
+      "type": "private"
+    },
+    {
+      "name": "Tidewater Co. Middle East Marin Services Plc",
+      "persian_name": "تایدواتر شرکت خدمات دریایی خاورمیانه",
+      "type": "public"
+    },
+    {
+      "name": "Telecommunication & Computer Industries Consortium",
+      "persian_name": "کنسرسیوم صنایع مخابرات و کامپیوتر",
+      "type": "private"
+    },
+    {
+      "name": "Tejarat Bank",
+      "persian_name": "بانک تجارت",
+      "type": "public"
+    },
+    {
+      "name": "Tehran Stock Exchange Services Company (TSESC)",
+      "persian_name": "شرکت خدمات بورس اوراق بهادار تهران",
+      "type": "public"
+    },
+    {
+      "name": "Tehran Metro",
+      "persian_name": "متروی تهران",
+      "type": "public"
+    },
+    {
+      "name": "TCI",
+      "persian_name": "شرکت مخابرات ایران",
+      "type": "public"
+    },
+    {
+      "name": "Tabriz Petrochemical Co.",
+      "persian_name": "شرکت پتروشیمی تبریز",
+      "type": "public"
+    },
+    {
+      "name": "Snapp",
+      "persian_name": "اسنپ",
+      "type": "private"
+    },
+    {
+      "name": "Sina Bank",
+      "persian_name": "بانک سینا",
+      "type": "public"
+    },
+    {
+      "name": "Shiraz Petrochemical Co.",
+      "persian_name": "شرکت پتروشیمی شیراز",
+      "type": "public"
+    },
+    {
+      "name": "Shatel",
+      "persian_name": "شاتل",
+      "type": "private"
+    },
+    {
+      "name": "Shahrvand",
+      "persian_name": "شهروند",
+      "type": "private"
+    },
+    {
+      "name": "Shahid Ghandi Co.",
+      "persian_name": "شرکت شهید قندی",
+      "type": "public"
+    },
+    {
+      "name": "Sepanta Co.",
+      "persian_name": "شرکت سپنتا",
+      "type": "private"
+    },
+    {
+      "name": "Sepah Bank",
+      "persian_name": "بانک سپه",
+      "type": "public"
+    },
+    {
+      "name": "SAPCO",
+      "persian_name": "ساپکو",
+      "type": "public"
+    },
+    {
+      "name": "Saipa Diesel",
+      "persian_name": "سایپا دیزل",
+      "type": "public"
+    },
+    {
+      "name": "Saipa Corp.",
+      "persian_name": "شرکت سایپا",
+      "type": "public"
+    },
+    {
+      "name": "SADRA",
+      "persian_name": "صدرا",
+      "type": "public"
+    },
+    {
+      "name": "Sadid Industrial Group",
+      "persian_name": "گروه صنعتی صدید",
+      "type": "private"
+    },
+    {
+      "name": "Saderat Bank Iran",
+      "persian_name": "بانک صادرات ایران",
+      "type": "public"
+    },
+    {
+      "name": "Rena Investment Co.",
+      "persian_name": "شرکت سرمایه‌گذاری رنا",
+      "type": "private"
+    },
+    {
+      "name": "Refah supermarket",
+      "persian_name": "فروشگاه رفاه",
+      "type": "private"
+    },
+    {
+      "name": "Petropars",
+      "persian_name": "پتروپارس",
+      "type": "public"
+    },
+    {
+      "name": "PetroIran",
+      "persian_name": "پتروایران",
+      "type": "public"
+    },
+    {
+      "name": "Petrochemical Commercial Company International Ltd.",
+      "persian_name": "شرکت بازرگانی پتروشیمی بین‌المللی",
+      "type": "public"
+    },
+    {
+      "name": "Payam Air",
+      "persian_name": "پایام ایر",
+      "type": "private"
+    },
+    {
+      "name": "Pasargad Bank",
+      "persian_name": "بانک پاسارگاد",
+      "type": "public"
+    },
+    {
+      "name": "Parsijoo",
+      "persian_name": "پرسیجو",
+      "type": "private"
+    },
+    {
+      "name": "Parsian Bank",
+      "persian_name": "بانک پارسیان",
+      "type": "public"
+    },
+    {
+      "name": "Parsé Semiconductor Co.",
+      "persian_name": "شرکت نیمه‌هادی پارس",
+      "type": "private"
+    },
+    {
+      "name": "Pars Wagon",
+      "persian_name": "واگن پارس",
+      "type": "public"
+    },
+    {
+      "name": "Pars Online",
+      "persian_name": "پارس آنلاین",
+      "type": "private"
+    },
+    {
+      "name": "Pars Oil Co.",
+      "persian_name": "شرکت نفت پارس",
+      "type": "public"
+    },
+    {
+      "name": "Pars Khodro",
+      "persian_name": "پارس خودرو",
+      "type": "public"
+    },
+    {
+      "name": "Oriental Oil Kish",
+      "persian_name": "نفت خاور کیش",
+      "type": "private"
+    },
+    {
+      "name": "North Drilling",
+      "persian_name": "حفاری شمال",
+      "type": "public"
+    },
+    {
+      "name": "Nobitex",
+      "persian_name": "نوبیتکس",
+      "type": "private"
+    },
+    {
+      "name": "National Post Company of the Islamic Republic of Iran (Iran Post)",
+      "persian_name": "شرکت پست جمهوری اسلامی ایران",
+      "type": "public"
+    },
+    {
+      "name": "National Petrochemical Co.",
+      "persian_name": "شرکت ملی پتروشیمی",
+      "type": "public"
+    },
+    {
+      "name": "National Iranian Tanker Company",
+      "persian_name": "شرکت ملی نفتکش ایران",
+      "type": "public"
+    },
+    {
+      "name": "National Iranian Petrochemical Company (NIPC)",
+      "persian_name": "شرکت ملی صنایع پتروشیمی ایران",
+      "type": "public"
+    },
+    {
+      "name": "National Iranian Oil Refining and Distribution Company",
+      "persian_name": "شرکت ملی پالایش و پخش فرآورده‌های نفتی ایران",
+      "type": "public"
+    },
+    {
+      "name": "National Iranian Oil Engineering and Construction Co.",
+      "persian_name": "شرکت ملی مهندسی و ساخت نفت ایران",
+      "type": "public"
+    },
+    {
+      "name": "National Iranian Oil Company",
+      "persian_name": "شرکت ملی نفت ایران",
+      "type": "public"
+    },
+    {
+      "name": "National Iranian Copper Industries Co. (NICICO)",
+      "persian_name": "شرکت ملی صنایع مس ایران",
+      "type": "public"
+    },
+    {
+      "name": "Naftiran Intertrade Company",
+      "persian_name": "شرکت نفتی‌ران اینترترید",
+      "type": "public"
+    },
+    {
+      "name": "MTN Irancell",
+      "persian_name": "ام‌تی‌ان ایرانسل",
+      "type": "private"
+    },
+    {
+      "name": "Mobarakeh Steel Company",
+      "persian_name": "شرکت فولاد مبارکه",
+      "type": "public"
+    },
+    {
+      "name": "Mine and Industry Bank",
+      "persian_name": "بانک معادن و صنایع",
+      "type": "public"
+    },
+    {
+      "name": "Marun petrochemical complex",
+      "persian_name": "مجتمع پتروشیمی مارون",
+      "type": "public"
+    },
+    {
+      "name": "MAPNA",
+      "persian_name": "مپنا",
+      "type": "public"
+    },
+    {
+      "name": "MAPNA International FZE",
+      "persian_name": "مپنا اینترنشنال",
+      "type": "public"
+    },
+    {
+      "name": "Maadiran Group",
+      "persian_name": "گروه معدیران",
+      "type": "private"
+    },
+    {
+      "name": "Loghman Pharmaceuticals",
+      "persian_name": "داروسازی لقمان",
+      "type": "private"
+    },
+    {
+      "name": "Khouzestan Steel Co.",
+      "persian_name": "شرکت فولاد خوزستان",
+      "type": "public"
+    },
+    {
+      "name": "Khorasan Steel Complex",
+      "persian_name": "مجتمع فولاد خراسان",
+      "type": "public"
+    },
+    {
+      "name": "Khatam al-Anbia",
+      "persian_name": "خاتم‌الانبیا",
+      "type": "public"
+    },
+    {
+      "name": "Keshavarzi Bank",
+      "persian_name": "بانک کشاورزی",
+      "type": "public"
+    },
+    {
+      "name": "Karafarin Bank",
+      "persian_name": "بانک کارآفرین",
+      "type": "private"
+    },
+    {
+      "name": "Islamic Republic of Iran Shipping Lines Co.",
+      "persian_name": "شرکت کشتیرانی جمهوری اسلامی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Islamic Republic of Iran Railways",
+      "persian_name": "راه‌آهن جمهوری اسلامی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Islamic Republic of Iran Broadcasting",
+      "persian_name": "صدا و سیمای جمهوری اسلامی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Isfahan Petrochemical Co.",
+      "persian_name": "شرکت پتروشیمی اصفهان",
+      "type": "public"
+    },
+    {
+      "name": "Iranian Space Agency",
+      "persian_name": "سازمان فضایی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iranian Rail Industries Development Co (IRICO)",
+      "persian_name": "شرکت توسعه صنایع ریلی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iranian Offshore Engineering and Construction Company",
+      "persian_name": "شرکت مهندسی و ساخت تأسیسات دریایی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Tractor Mfg. Co.",
+      "persian_name": "شرکت تراکتورسازی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran System",
+      "persian_name": "سیستم ایران",
+      "type": "private"
+    },
+    {
+      "name": "Iran Software & Hardware Co. (NOSA)",
+      "persian_name": "شرکت نرم‌افزار و سخت‌افزار ایران",
+      "type": "private"
+    },
+    {
+      "name": "Iran Shipbuilding & Offshore Industries Complex",
+      "persian_name": "مجتمع صنایع کشتی‌سازی و فراساحل ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Road Maintenance & Transportation Organization",
+      "persian_name": "سازمان راهداری و حمل و نقل جاده‌ای ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Melli-Sanati Steel Group",
+      "persian_name": "گروه فولاد ملی-صنعتی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Marine Industrial Co. (SADRA)",
+      "persian_name": "شرکت صنایع دریایی ایران (صدرا)",
+      "type": "public"
+    },
+    {
+      "name": "Iran Khodro Diesel",
+      "persian_name": "ایران خودرو دیزل",
+      "type": "public"
+    },
+    {
+      "name": "Iran Insurance Company",
+      "persian_name": "شرکت بیمه ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Electronics Industries (SAIRAN)",
+      "persian_name": "صنایع الکترونیک ایران (سیران)",
+      "type": "public"
+    },
+    {
+      "name": "Iran Dairy Industries Co.",
+      "persian_name": "شرکت صنایع لبنی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Cultural Heritage, Handicrafts and Tourism Organization (ICHTO)",
+      "persian_name": "سازمان میراث فرهنگی، صنایع دستی و گردشگری ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Aviation Industries Organization",
+      "persian_name": "سازمان صنایع هوایی ایران",
+      "type": "public"
+    },
+    {
+      "name": "Iran Aluminium Co. (IRALCO)",
+      "persian_name": "شرکت آلومینیوم ایران (ایرالکو)",
+      "type": "public"
+    },
+    {
+      "name": "Iran Air Tour Co.",
+      "persian_name": "ایران ایر تور",
+      "type": "public"
+    },
+    {
+      "name": "Iran Air",
+      "persian_name": "ایران ایر",
+      "type": "public"
+    },
+    {
+      "name": "Institute for Productivity & Human Resource Development (IPHRD)",
+      "persian_name": "مؤسسه توسعه بهره‌وری و منابع انسانی",
+      "type": "public"
+    },
+    {
+      "name": "Industrial Development and Renovation Organization of Iran",
+      "persian_name": "سازمان توسعه و نوسازی صنایع ایران",
+      "type": "public"
+    },
+    {
+      "name": "IMIDRO Group",
+      "persian_name": "گروه ایمیدرو",
+      "type": "public"
+    },
+    {
+      "name": "IDRO Group",
+      "persian_name": "گروه ایدرو",
+      "type": "public"
+    },
+    {
+      "name": "Homa Hotel Group",
+      "persian_name": "گروه هتل‌های هما",
+      "type": "private"
+    },
+    {
+      "name": "HEPCO",
+      "persian_name": "هپکو",
+      "type": "public"
+    },
+    {
+      "name": "Golrang Industrial Group",
+      "persian_name": "گروه صنعتی گلرنگ",
+      "type": "private"
+    },
+    {
+      "name": "Goldstone Tires",
+      "persian_name": "تایر گلدستون",
+      "type": "private"
+    },
+    {
+      "name": "Ghadir Investment Company",
+      "persian_name": "شرکت سرمایه‌گذاری غدیر",
+      "type": "private"
+    },
+    {
+      "name": "Esfahan Steel Company",
+      "persian_name": "شرکت فولاد اصفهان",
+      "type": "public"
+    },
+    {
+      "name": "Eghtesad Novin Bank",
+      "persian_name": "بانک اقتصاد نوین",
+      "type": "private"
+    },
+    {
+      "name": "Digikala",
+      "persian_name": "دیجی‌کالا",
+      "type": "private"
+    },
+    {
+      "name": "Desa diesel",
+      "persian_name": "دیزل دسا",
+      "type": "private"
+    },
+    {
+      "name": "Defense Industries Organization",
+      "persian_name": "سازمان صنایع دفاع",
+      "type": "public"
+    },
+    {
+      "name": "Data Processing Iran Co.",
+      "persian_name": "شرکت پردازش داده‌های ایران",
+      "type": "private"
+    },
+    {
+      "name": "Darou Pakhsh",
+      "persian_name": "داروپخش",
+      "type": "private"
+    },
+    {
+      "name": "Dana Energy",
+      "persian_name": "دانا انرژی",
+      "type": "private"
+    },
+    {
+      "name": "Civil Pension Fund Investment Co.",
+      "persian_name": "شرکت سرمایه‌گذاری صندوق بازنشستگی کشوری",
+      "type" : "public"
+    },
+    {
+        "name": "Chadormalu Mining and Industrial Company",
+        "persian_name": "شرکت معدنی و صنعتی چادرملو",
+        "type": "public"
+      },
+      {
+        "name": "Bou Ali Sina Petrochemical Industries",
+        "persian_name": "صنایع پتروشیمی بو علی سینا",
+        "type": "public"
+      },
+      {
+        "name": "Borzouyeh Petrochemical Co.",
+        "persian_name": "شرکت پتروشیمی برزویه",
+        "type": "public"
+      },
+      {
+        "name": "Behran Oil Co.",
+        "persian_name": "شرکت نفت بهران",
+        "type": "public"
+      },
+      {
+        "name": "Bank Melli Iran",
+        "persian_name": "بانک ملی ایران",
+        "type": "public"
+      },
+      {
+        "name": "Bank Melli Investment Co.",
+        "persian_name": "شرکت سرمایه‌گذاری بانک ملی",
+        "type": "public"
+      },
+      {
+        "name": "Bank Mellat",
+        "persian_name": "بانک ملت",
+        "type": "public"
+      },
+      {
+        "name": "Bank Maskan",
+        "persian_name": "بانک مسکن",
+        "type": "public"
+      },
+      {
+        "name": "Bandar Imam Petrochemical Co.",
+        "persian_name": "شرکت پتروشیمی بندر امام",
+        "type": "public"
+      },
+      {
+        "name": "Bakhtar Petrochemical Company",
+        "persian_name": "شرکت پتروشیمی باختر",
+        "type": "public"
+      },
+      {
+        "name": "Bahman Group",
+        "persian_name": "گروه بهمن",
+        "type": "public"
+      },
+      {
+        "name": "AZAR AB Industries Co",
+        "persian_name": "شرکت صنایع آذر آب",
+        "type": "private"
+      },
+      {
+        "name": "Atomic Energy Organization of Iran",
+        "persian_name": "سازمان انرژی اتمی ایران",
+        "type": "public"
+      },
+      {
+        "name": "Arj Co.",
+        "persian_name": "شرکت ارج",
+        "type": "private"
+      },
+      {
+        "name": "Arak Machine-building Co.",
+        "persian_name": "شرکت ماشین‌سازی اراک",
+        "type": "public"
+      },
+      {
+        "name": "AmirKabir Petrochemical Co.",
+        "persian_name": "شرکت پتروشیمی امیرکبیر",
+        "type": "public"
+      },
+      {
+        "name": "Aabsal",
+        "persian_name": "آبسال",
+        "type": "private"
+      }
+]
+}

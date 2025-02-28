@@ -7,6 +7,7 @@ class PersianDataFaker:
     def __init__(self):
         print("Welcome to Persian Fake Data Generator.")
         self.personal_data = load_data("src/data/person.json")
+        self.company_data = load_data("src/data/company.json")
         self.INC = ir_national_code()
         self.persian2Finglish = PersianToPinglishConverter()
         
@@ -225,9 +226,14 @@ class PersianDataFaker:
         email = f"{self.persian2Finglish.convert(username.lower())}@{domain}"
         return email.replace(" ", "").replace("'", "").replace("-", "").replace(" " , ".")
     
+    # TODO getEmailEnhuanced
     
-    
-    
+    def getCompany(self):
+        """
+        Returns:
+            str: A random Persian company name
+        """
+        return random.choice(self.company_data["company"])
     
     
     
